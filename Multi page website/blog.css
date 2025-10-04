@@ -1,0 +1,66 @@
+.about-hero {
+  position: relative;
+  height: 70vh; /* Full screen */
+  background: url("background.jpg") center/cover no-repeat; /* Your image */
+}
+
+.about-hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Dark transparent layer */
+}
+
+.about-hero .content {
+  position: relative;
+  z-index: 2; /* Keeps text above overlay */
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+}
+
+/* Make navbar text white so it looks good on dark background */
+.navbar .nav-link {
+  color: white !important;
+}
+
+.sidebar-title {
+  background-color: #f44336;  /* red background */
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.sidebar-list li {
+  display: flex;
+  justify-content: space-between; /* text left, numbers right */
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+.sidebar-list li span {
+  color: #444;
+  font-weight: 500;
+}
+
+.Form a{
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    /* ✅ makes width & height work */
+    line-height: 50px;
+    /* ✅ vertically centers the text */
+    text-align: center;
+    /* ✅ horizontally centers the text */
+    border-radius: 5px;
+}

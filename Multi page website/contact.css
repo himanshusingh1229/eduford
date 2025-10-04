@@ -1,0 +1,36 @@
+.about-hero {
+  position: relative;
+  height: 70vh; /* Full screen */
+  background: url("background.jpg") center/cover no-repeat; /* Your image */
+}
+
+.about-hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Dark transparent layer */
+}
+
+.about-hero .content {
+  position: relative;
+  z-index: 2; /* Keeps text above overlay */
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+}
+
+/* Make navbar text white so it looks good on dark background */
+.navbar .nav-link {
+  color: white !important;
+}
+
+.location iframe{
+    width: 90%;
+    height: 70vh;
+}
+
